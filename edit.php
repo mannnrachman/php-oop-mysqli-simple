@@ -1,7 +1,7 @@
 <?php
-include 'conn.php';
+include 'function.php';
 
-$ambil = new database();
+$ambil = new baru();
 $id = $_GET['id'];
 $data_karyawan = $ambil->get_by_idkaryawan($id);
 

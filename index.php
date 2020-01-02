@@ -1,6 +1,6 @@
 <?php
-include 'conn.php';
-$view = new database();
+include 'function.php';
+$view = new baru();
 $data_karyawan = $view->tampil_karyawan();
 $no = 1;
 ?>

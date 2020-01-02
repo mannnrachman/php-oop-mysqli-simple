@@ -1,6 +1,6 @@
 <?php
-include 'conn.php';
-$proses = new database();
+include 'function.php';
+$proses = new baru();
 
 $aksi = $_GET['action'];
 
